@@ -1,0 +1,88 @@
+.home {
+
+  .info-section {
+    padding: 54px;
+    width: 35%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    .info-box {
+
+      position: absolute;
+      bottom: 60px;
+      h4 {
+        font-size: 1.2rem;
+        color: $color3;
+        margin: 0.7rem 0;
+      }
+      p {
+        font-size: 0.9rem;
+        font-weight: 300;
+        color: $color3;
+        margin: 0.2rem 0 1.5rem;
+      }
+    }
+  }
+
+  .content-area {
+    background: $color3;
+    margin-left: 35%;
+    background: white;
+    width: 65%;
+    height: 100%;
+    // padding: 0 0 0 25px;
+    .img-container {
+      width: 30%;
+      display: inline-block;
+      position: relative;
+      height: 100%;
+      .user-img {
+        position: absolute;
+        left: -200px;
+        width: 400px;
+        top: 56px;
+        height: calc(100% - 112px);
+        background: url("../img/JoseSandate.jpg") no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        -webkit-box-shadow: 14px 18px 84px -25px rgba(0,0,0,1);
+        -moz-box-shadow: 14px 18px 84px -25px rgba(0,0,0,1);
+        box-shadow: 14px 18px 84px -25px rgba(0,0,0,1);
+          }
+    }
+
+      .profile-section {
+      vertical-align: top;
+      display: inline-block;
+      max-width: 500px;
+      padding: 20% 0 0 0;
+      .profile {
+        h1 {
+          font-size: 2.3rem;
+          font-weight: 500;
+          letter-spacing: 1.5px;
+          // text-transform: uppercase;
+          line-height: 1.2;
+          margin: 0 0 1.7rem;
+        }
+        span {
+          color: $color1;
+        }
+        h5 {
+          font-size: 1.1rem;
+          margin: 0 0 2rem;
+        }
+        p {
+          color: $color4;
+          font-weight: 300;
+          margin: 0 0 2rem;
+          line-height: 1.4;
+          margin: 0 0 2rem 0;
+        }
+      }
+    }
+  }
+}
