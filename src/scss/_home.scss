@@ -1,5 +1,14 @@
 .home {
-
+  .logo {
+    border: 6px solid #fff;
+    height: 130px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    color: $color3;
+  }
   .info-section {
     padding: 54px;
     width: 35%;

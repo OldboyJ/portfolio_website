@@ -45,6 +45,16 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+.home .logo {
+  border: 6px solid #fff;
+  height: 130px;
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  color: #fefefe; }
+
 .home .info-section {
   padding: 54px;
   width: 35%;
@@ -120,7 +130,7 @@ body,
 html {
   background: #4b21ff;
   font-size: 18px;
-  font-family: 'Encode Sans Condensed', sans-serif;
+  font-family: 'Barlow Semi Condensed', sans-serif;
   height: 100%; }
 
 .menu-icon {

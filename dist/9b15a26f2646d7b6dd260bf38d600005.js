@@ -71,7 +71,7 @@ require = (function (modules, cache, entry) {
 
   // Override the current require with this new one
   return newRequire;
-})({6:[function(require,module,exports) {
+})({13:[function(require,module,exports) {
 var bundleURL = null;
 function getBundleURLCached() {
   if (!bundleURL) {
@@ -101,7 +101,7 @@ function getBaseURL(url) {
 
 exports.getBundleURL = getBundleURLCached;
 exports.getBaseURL = getBaseURL;
-},{}],4:[function(require,module,exports) {
+},{}],10:[function(require,module,exports) {
 var bundle = require('./bundle-url');
 
 function updateLink(link) {
@@ -132,13 +132,13 @@ function reloadCSS() {
 }
 
 module.exports = reloadCSS;
-},{"./bundle-url":6}],2:[function(require,module,exports) {
+},{"./bundle-url":13}],7:[function(require,module,exports) {
 
         var reloadCSS = require('_css_loader');
         module.hot.dispose(reloadCSS);
         module.hot.accept(reloadCSS);
       
-},{"./../img/JoseSandate.jpg":5,"_css_loader":4}],25:[function(require,module,exports) {
+},{"./../img/JoseSandate.jpg":12,"_css_loader":10}],19:[function(require,module,exports) {
 
 var global = (1, eval)('this');
 var OldModule = module.bundle.Module;
@@ -160,7 +160,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = '' || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + '61903' + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + '54299' + '/');
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
 
@@ -261,7 +261,7 @@ function hmrAccept(bundle, id) {
     return hmrAccept(global.require, id);
   });
 }
-},{}],26:[function(require,module,exports) {
+},{}],20:[function(require,module,exports) {
 var getBundleURL = require('./bundle-url').getBundleURL;
 
 function loadBundlesLazy(bundles) {
@@ -340,7 +340,7 @@ LazyPromise.prototype.then = function (onSuccess, onError) {
 LazyPromise.prototype.catch = function (onError) {
   return this.promise || (this.promise = new Promise(this.executor).catch(onError));
 };
-},{"./bundle-url":6}],0:[function(require,module,exports) {
-var b=require(26);b.load([["6a9606726ac6adad1848cc3c608d78ba.jpg",5]]);
-},{}]},{},[25,0])
+},{"./bundle-url":13}],0:[function(require,module,exports) {
+var b=require(20);b.load([["6a9606726ac6adad1848cc3c608d78ba.jpg",12]]);
+},{}]},{},[19,0])
 //# sourceMappingURL=/dist/9b15a26f2646d7b6dd260bf38d600005.map
