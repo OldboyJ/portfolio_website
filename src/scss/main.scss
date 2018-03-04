@@ -1,7 +1,8 @@
 @import "_reset";
 @import "variables";
+@import "_infoSection";
 @import "_home";
-// @import "resume";
+@import "resume";
 
 * {
   box-sizing: border-box;
@@ -67,23 +68,6 @@ html
     transform: translate3d(0, 0, 0);
   }
 }
-
-.icon-section {
-  a {
-    color: white;
-    text-decoration: none;
-    font-size: 2rem;
-    padding: 0 10px;
-    &:hover {
-      color: $hoverColor;
-    }
-
-    &:first-child {
-      padding: 0 10px 0 0;
-    }
-  }
-}
-
 
 .primary-btn {
   text-decoration: none;

@@ -1,0 +1,46 @@
+.resume {
+  .content-area {
+    background: $color3;
+    margin-left: 20%;
+    background: white;
+    width: 80%;
+    height: 100%;
+    padding: 56px;
+    overflow: scroll;
+    h1 {
+      font-weight: 700;
+      font-size: 2rem;
+      color: $color2;
+      letter-spacing: .4rem;
+      text-transform: uppercase;
+      margin: 36px 0;
+    }
+    .exp-section {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-column-gap: 56px;
+      grid-row-gap: 30px;
+      max-width: 1000px;
+      .exp-box {
+        padding: 20px;
+        transition: all 0.5s ease-in-out;
+        cursor: pointer;
+        &:hover {
+          -webkit-box-shadow: 10px 18px 70px 6px rgba(0,0,0,.12);
+          -moz-box-shadow: 10px 18px 70px 6px rgba(0,0,0,.12);
+          box-shadow: 10px 18px 70px 6px rgba(0,0,0,.12);
+        }
+        h5 {
+          font-weight: 500;
+          font-size: 1.3rem;
+          margin-bottom: 1.4rem;
+        }
+        p {
+          font-weight: 300;
+          font-size: 1rem;
+          margin-bottom: 1rem;
+        }
+      }
+    }
+  }
+}
