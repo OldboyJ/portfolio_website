@@ -185,6 +185,88 @@ table {
         font-size: 1rem;
         margin-bottom: 1rem; }
 
+.work .content-area {
+  background: #fefefe;
+  margin-left: 20%;
+  background: white;
+  width: 80%;
+  height: 100%;
+  padding: 56px;
+  overflow: scroll; }
+  .work .content-area h1 {
+    font-weight: 700;
+    font-size: 2rem;
+    color: #272727;
+    letter-spacing: .4rem;
+    text-transform: uppercase;
+    margin: 36px 0; }
+  .work .content-area .project-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr; }
+    .work .content-area .project-section .project-box {
+      position: relative;
+      padding: 20px;
+      transition: all 0.5s ease-in-out;
+      cursor: pointer;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      height: 300px; }
+      .work .content-area .project-section .project-box:hover {
+        -webkit-box-shadow: 10px 38px 70px 6px rgba(0, 0, 0, 0.3);
+        -moz-box-shadow: 10px 38px 70px 6px rgba(0, 0, 0, 0.3);
+        box-shadow: 10px 38px 70px 6px rgba(0, 0, 0, 0.3); }
+      .work .content-area .project-section .project-box .grey-bg {
+        background: #efefef;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        opacity: 0;
+        transition: all .3s ease-in-out;
+        overflow: hidden; }
+        .work .content-area .project-section .project-box .grey-bg:hover {
+          opacity: .8; }
+          .work .content-area .project-section .project-box .grey-bg:hover .project-info .project-details {
+            transform: translate3d(0, 0, 0);
+            opacity: 1; }
+          .work .content-area .project-section .project-box .grey-bg:hover .project-info .project-title {
+            transform: translate3d(0, 0, 0);
+            opacity: 1; }
+      .work .content-area .project-section .project-box .project-info {
+        position: absolute;
+        bottom: 0;
+        padding: 56px; }
+        .work .content-area .project-section .project-box .project-info .project-details {
+          font-size: 1rem;
+          text-transform: capitalize;
+          margin: 0 0 .8rem;
+          transform: translate3d(-200px, 0, 0);
+          opacity: 0;
+          transition: all .5s ease-in; }
+        .work .content-area .project-section .project-box .project-info .project-title {
+          font-size: 2rem;
+          text-transform: uppercase;
+          font-weight: 600;
+          transform: translate3d(-200px, 0, 0);
+          opacity: 0;
+          transition: transform .6s ease-in .1s; }
+        .work .content-area .project-section .project-box .project-info .fa-long-arrow-alt-right {
+          position: absolute;
+          bottom: 45px;
+          right: 0px;
+          font-size: 3rem; }
+      .work .content-area .project-section .project-box h5 {
+        font-weight: 500;
+        font-size: 1.3rem;
+        margin-bottom: 1.4rem; }
+      .work .content-area .project-section .project-box p {
+        font-weight: 300;
+        font-size: 1rem;
+        margin-bottom: 1rem; }
+
 * {
   box-sizing: border-box; }
 

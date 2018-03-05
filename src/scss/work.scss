@@ -1,0 +1,100 @@
+.work {
+  .content-area {
+    background: $color3;
+    margin-left: 20%;
+    background: white;
+    width: 80%;
+    height: 100%;
+    padding: 56px;
+    overflow: scroll;
+    h1 {
+      font-weight: 700;
+      font-size: 2rem;
+      color: $color2;
+      letter-spacing: .4rem;
+      text-transform: uppercase;
+      margin: 36px 0;
+    }
+    .project-section {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      .project-box {
+        position: relative;
+        padding: 20px;
+        transition: all 0.5s ease-in-out;
+        cursor: pointer;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        height: 300px;
+        &:hover {
+          -webkit-box-shadow: 10px 38px 70px 6px rgba(0,0,0,.3);
+          -moz-box-shadow: 10px 38px 70px 6px rgba(0,0,0,.3);
+          box-shadow: 10px 38px 70px 6px rgba(0,0,0,.3);
+        }
+        .grey-bg {
+          background: #efefef;
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          right: 0;
+          left: 0;
+          opacity: 0;
+          transition: all .3s ease-in-out;
+          overflow: hidden;
+          &:hover {
+            opacity: .8;
+            .project-info {
+              .project-details {
+                transform: translate3d(0, 0 , 0);
+                opacity: 1;
+              }
+              .project-title {
+                transform: translate3d(0, 0, 0);
+                opacity: 1;
+              }
+            }
+          }
+        }
+        .project-info {
+          position: absolute;
+          bottom: 0;
+          padding: 56px;
+          .project-details {
+            font-size: 1rem;
+            text-transform: capitalize;
+            margin: 0 0 .8rem;
+            transform: translate3d(-200px, 0 , 0);
+            opacity: 0;
+            transition: all .5s ease-in;
+          }
+          .project-title {
+            font-size: 2rem;
+            text-transform: uppercase;
+            font-weight: 600;
+            transform: translate3d(-200px, 0 , 0);
+            opacity: 0;
+            transition: transform .6s ease-in .1s;
+          }
+          .fa-long-arrow-alt-right {
+            position: absolute;
+            bottom: 45px;
+            right: 0px;
+            font-size: 3rem;
+          }
+        }
+        h5 {
+          font-weight: 500;
+          font-size: 1.3rem;
+          margin-bottom: 1.4rem;
+        }
+        p {
+          font-weight: 300;
+          font-size: 1rem;
+          margin-bottom: 1rem;
+        }
+      }
+    }
+  }
+}
