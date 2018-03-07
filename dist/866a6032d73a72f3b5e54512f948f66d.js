@@ -71,7 +71,7 @@ require = (function (modules, cache, entry) {
 
   // Override the current require with this new one
   return newRequire;
-})({8:[function(require,module,exports) {
+})({9:[function(require,module,exports) {
 var bundleURL = null;
 function getBundleURLCached() {
   if (!bundleURL) {
@@ -101,7 +101,7 @@ function getBaseURL(url) {
 
 exports.getBundleURL = getBundleURLCached;
 exports.getBaseURL = getBaseURL;
-},{}],6:[function(require,module,exports) {
+},{}],7:[function(require,module,exports) {
 var bundle = require('./bundle-url');
 
 function updateLink(link) {
@@ -132,19 +132,19 @@ function reloadCSS() {
 }
 
 module.exports = reloadCSS;
-},{"./bundle-url":8}],4:[function(require,module,exports) {
+},{"./bundle-url":9}],5:[function(require,module,exports) {
 
         var reloadCSS = require('_css_loader');
         module.hot.dispose(reloadCSS);
         module.hot.accept(reloadCSS);
       
-},{"./../img/JoseSandate.jpg":[["6a9606726ac6adad,5:[function(require,module,exports) {
-'use s,5:[function(require,module,exports) {
+},{"./../img/JoseSandate.jpg":[["6a9606726ac6adad,6:[function(require,module,exports) {
+'use s,6:[function(require,module,exports) {
 'use strict';
 
-require('..,9:[function(require,module,exports) {
+require('..,10:[function(require,module,exports) {
 
-var g,9:[function(require,module,exports) {
+var ,10:[function(require,module,exports) {
 
 var global = (1, eval)('this');
 var OldModule = module.bundle.Module;
@@ -166,7 +166,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = '' || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + '56982' + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + '55555' + '/');
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
 
@@ -264,7 +264,8 @@ function hmrAccept(bundle, id) {
   }
 
   return getParents(global.require, id).some(function (id) {
-    return,11:[function(require,module,exports) {
+    return,12:[function(require,module,exports) {
+var g,12:[function(require,module,exports) {
 var getBundleURL = require('./bundle-url').getBundleURL;
 
 function loadBundlesLazy(bundles) {
@@ -341,9 +342,8 @@ LazyPromise.prototype.then = function (onSuccess, onError) {
 };
 
 LazyPromise.prototype.catch = function (onError) {
-  return this.promise || (this.promise = new Promise(this.executor).catch(onError));
-};
-},{"./bundle-url":8}],0:[function(require,module,exports) {
-var b=require(11);b.load([["6a9606726ac6adad1848cc3c608d78ba.jpg",7],5]);
-},{}]},{},[9,0])
-//# sourceMappingURL=/dist/866a6032d73a72f3b5e54512f948f66d.map
+  return this.promise || (this.promise = new Promise(this.execut,0:[function(require,module,exports) {
+var b=,0:[function(require,module,exports) {
+var b=require(12);
+},{}]},{},[10,0,6])
+//# sourceMappingURL=/dist/866a6032d73a72f3b5e54512f948f66d.mapf66d.map

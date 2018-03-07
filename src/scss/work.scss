@@ -18,6 +18,7 @@
     .project-section {
       display: grid;
       grid-template-columns: 1fr 1fr;
+      grid-column-gap: 25px;
       .project-box {
         position: relative;
         padding: 20px;
@@ -73,9 +74,9 @@
             font-size: 2rem;
             text-transform: uppercase;
             font-weight: 600;
-            transform: translate3d(-200px, 0 , 0);
+            transform: translate3d(-100px, 0 , 0);
             opacity: 0;
-            transition: transform .6s ease-in .1s;
+            transition: all .6s ease-in .1s;
           }
           .fa-long-arrow-alt-right {
             position: absolute;
