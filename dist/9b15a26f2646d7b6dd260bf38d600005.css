@@ -147,6 +147,75 @@ table {
       line-height: 1.4;
       margin: 0 0 2rem 0; }
 
+@media (min-width: 0) and (max-width: 767px) {
+  .home .menu-icon {
+    top: -3px;
+    right: 20px;
+    color: white; }
+    .home .menu-icon .fa {
+      color: white; }
+  .home .info-section {
+    padding: 10px 20px;
+    position: static; }
+    .home .info-section .logo {
+      height: 50px;
+      width: 70px;
+      font-size: 1rem; }
+    .home .info-section .info-box {
+      display: none; }
+  .home .content-area {
+    margin-left: 0;
+    width: 100%; }
+    .home .content-area .img-container {
+      padding: 56px 20px 0; }
+      .home .content-area .img-container .user-img {
+        position: static;
+        width: 100%; }
+    .home .content-area .profile-section {
+      width: 70%;
+      float: right;
+      padding: 20% 20px 0; }
+      .home .content-area .profile-section .profile .primary-btn, .home .content-area .profile-section .profile .ghost-btn {
+        margin-bottom: 15px; } }
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .home .content-area .img-container {
+    padding: 56px 20px 0; }
+    .home .content-area .img-container .user-img {
+      position: static;
+      width: 100%; }
+  .home .content-area .profile-section {
+    width: 70%;
+    float: right;
+    padding: 20% 60px 0; }
+    .home .content-area .profile-section .profile .primary-btn, .home .content-area .profile-section .profile .ghost-btn {
+      margin-bottom: 15px; } }
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .home .content-area .img-container {
+    padding: 56px 20px 0;
+    float: left; }
+    .home .content-area .img-container .user-img {
+      position: static;
+      width: 100%; }
+  .home .content-area .profile-section {
+    width: 70%;
+    float: left;
+    padding: 20% 60px 0;
+    max-width: 800px; }
+    .home .content-area .profile-section .profile .primary-btn, .home .content-area .profile-section .profile .ghost-btn {
+      margin-bottom: 15px; } }
+
+@media (min-width: 1200px) and (max-width: 1599px) {
+  .home .content-area .img-container {
+    padding: 56px 20px 0;
+    float: left; }
+  .home .content-area .profile-section {
+    width: 70%;
+    float: left;
+    padding: 20% 60px 0;
+    max-width: 800px; } }
+
 .resume .content-area {
   background: #fefefe;
   margin-left: 20%;
@@ -184,6 +253,122 @@ table {
         font-weight: 300;
         font-size: 1rem;
         margin-bottom: 1rem; }
+
+@media (min-width: 0px) and (max-width: 767px) {
+  body,
+  html {
+    height: auto; }
+  .resume .menu-icon {
+    top: -3px;
+    right: 20px;
+    color: white; }
+    .resume .menu-icon .fa {
+      color: white; }
+  .resume .content-area {
+    height: auto !important; }
+    .resume .content-area:after {
+      content: "";
+      display: table;
+      clear: both; }
+  .resume .info-section {
+    padding: 10px 20px;
+    position: static; }
+    .resume .info-section .logo {
+      height: 50px;
+      width: 70px;
+      font-size: 1rem; }
+    .resume .info-section .info-box {
+      display: none; }
+  .resume .content-area {
+    margin-left: 0;
+    width: 100%;
+    padding: 0; }
+    .resume .content-area:after {
+      content: "";
+      display: table;
+      clear: both; }
+    .resume .content-area .title {
+      text-align: center; }
+    .resume .content-area .exp-section {
+      width: 100%;
+      text-align: center;
+      float: right;
+      padding: 50px 20px;
+      grid-template-columns: 1fr; }
+      .resume .content-area .exp-section .exp-info .exp-box {
+        margin: 0 auto; } }
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .resume .menu-icon {
+    top: -3px;
+    right: 20px;
+    color: white; }
+    .resume .menu-icon .fa {
+      color: #4b21ff; }
+  .resume .content-area {
+    height: auto !important; }
+    .resume .content-area:after {
+      content: "";
+      display: table;
+      clear: both; }
+  .resume .info-section {
+    padding: 56px;
+    position: absolute; }
+  .resume .content-area {
+    margin-left: 0;
+    width: 70%;
+    float: right;
+    padding: 0; }
+    .resume .content-area:after {
+      content: "";
+      display: table;
+      clear: both; }
+    .resume .content-area .title {
+      text-align: center; }
+    .resume .content-area .exp-section {
+      width: 100%;
+      text-align: center;
+      float: right;
+      padding: 50px 20px;
+      grid-template-columns: 1fr; }
+      .resume .content-area .exp-section .exp-info .exp-box {
+        margin: 0 auto; } }
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .resume .menu-icon {
+    top: -3px;
+    right: 20px;
+    color: white; }
+    .resume .menu-icon .fa {
+      color: #4b21ff; }
+  .resume .content-area {
+    height: auto !important; }
+    .resume .content-area:after {
+      content: "";
+      display: table;
+      clear: both; }
+  .resume .info-section {
+    padding: 56px;
+    position: absolute; }
+  .resume .content-area {
+    margin-left: 0;
+    width: 70%;
+    float: right;
+    padding: 0; }
+    .resume .content-area:after {
+      content: "";
+      display: table;
+      clear: both; }
+    .resume .content-area .title {
+      text-align: center; }
+    .resume .content-area .exp-section {
+      width: 100%;
+      text-align: center;
+      float: right;
+      padding: 50px 20px;
+      grid-template-columns: 1fr 1fr; }
+      .resume .content-area .exp-section .exp-info .exp-box {
+        margin: 0 auto; } }
 
 .work .content-area {
   background: #fefefe;
@@ -267,6 +452,44 @@ table {
         font-weight: 300;
         font-size: 1rem;
         margin-bottom: 1rem; }
+
+@media (min-width: 0px) and (max-width: 767px) {
+  .work .menu-icon {
+    top: -3px;
+    right: 20px;
+    color: white; }
+    .work .menu-icon .fa {
+      color: white; }
+  .work .info-section {
+    padding: 10px 20px;
+    position: static; }
+    .work .info-section .logo {
+      height: 50px;
+      width: 70px;
+      font-size: 1rem; }
+    .work .info-section .info-box {
+      display: none; }
+  .work .content-area {
+    height: auto;
+    margin-left: 0;
+    width: 100%;
+    padding: 0; }
+    .work .content-area:after {
+      content: "";
+      display: table;
+      clear: both; }
+    .work .content-area .title {
+      text-align: center; }
+    .work .content-area .project-section {
+      width: 100%;
+      text-align: center;
+      float: right;
+      padding: 50px 20px 0;
+      grid-template-columns: 1fr; }
+      .work .content-area .project-section .project-box {
+        margin-bottom: 56px;
+        width: 100%;
+        height: 333px; } }
 
 .contact .logo {
   border: 6px solid #fff;
@@ -370,6 +593,119 @@ table {
         margin: 0 0 2rem;
         line-height: 1.4;
         margin: 0 0 2rem 0; }
+
+@media (min-width: 0px) and (max-width: 767px) {
+  .contact .menu-icon {
+    top: -3px;
+    right: 20px;
+    color: white; }
+    .contact .menu-icon .fa {
+      color: white; }
+  .contact .content-area {
+    height: auto !important;
+    overflow: hidden; }
+    .contact .content-area:after {
+      content: "";
+      display: table;
+      clear: both; }
+  .contact .info-section {
+    padding: 10px 20px;
+    position: static; }
+    .contact .info-section .logo {
+      height: 50px;
+      width: 70px;
+      font-size: 1rem; }
+    .contact .info-section .info-box {
+      display: none; }
+  .contact .content-area {
+    margin-left: 0;
+    width: 100%; }
+    .contact .content-area:after {
+      content: "";
+      display: table;
+      clear: both; }
+    .contact .content-area .img-container {
+      width: 100%;
+      padding: 56px 20px 0;
+      height: auto; }
+      .contact .content-area .img-container .form-section {
+        position: static;
+        height: auto;
+        width: 100%;
+        overflow: auto; }
+    .contact .content-area .contact-section {
+      width: 100%;
+      text-align: center;
+      float: right;
+      padding: 20% 20px 0; }
+      .contact .content-area .contact-section .profile .primary-btn, .contact .content-area .contact-section .profile .ghost-btn {
+        margin-bottom: 15px; }
+      .contact .content-area .contact-section .contact-info .contact-box {
+        margin: 0 auto; } }
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .contact .info-section .icon-section a {
+    font-size: 1.4rem; }
+  .contact .content-area {
+    height: auto; }
+    .contact .content-area:after {
+      content: "";
+      display: table;
+      clear: both; }
+    .contact .content-area .img-container {
+      padding: 56px 20px 0;
+      width: 100%;
+      float: left;
+      height: auto; }
+      .contact .content-area .img-container .form-section {
+        position: static;
+        width: 100%;
+        height: auto;
+        overflow: auto; }
+    .contact .content-area .contact-section {
+      width: 100%;
+      float: right;
+      padding: 20% 60px 0; }
+      .contact .content-area .contact-section .profile .primary-btn, .contact .content-area .contact-section .profile .ghost-btn {
+        margin-bottom: 15px; } }
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .contact .content-area {
+    height: auto; }
+    .contact .content-area:after {
+      content: "";
+      display: table;
+      clear: both; }
+    .contact .content-area .img-container {
+      padding: 56px 20px 0;
+      float: left;
+      height: auto;
+      width: 100%; }
+      .contact .content-area .img-container .form-section {
+        position: static;
+        width: 100%;
+        float: left;
+        height: auto;
+        overflow: auto; }
+    .contact .content-area .contact-section {
+      width: 70%;
+      float: left;
+      padding: 20% 60px 0;
+      max-width: 800px; }
+      .contact .content-area .contact-section .profile .primary-btn, .contact .content-area .contact-section .profile .ghost-btn {
+        margin-bottom: 15px; } }
+
+@media (min-width: 1200px) {
+  .contact .content-area .img-container {
+    padding: 56px 20px 0;
+    float: left; }
+    .contact .content-area .img-container .form-section {
+      left: -170px; }
+  .contact .content-area .contact-section {
+    width: 70%;
+    float: left;
+    padding: 20% 60px 0;
+    max-width: 800px; } }
 
 * {
   box-sizing: border-box; }

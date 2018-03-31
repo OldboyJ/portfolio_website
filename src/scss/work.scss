@@ -99,3 +99,57 @@
     }
   }
 }
+
+//phone
+@media (min-width: 0px) and (max-width: 767px) {
+  .work {
+    .menu-icon {
+      top: -3px;
+      right: 20px;
+      color: white;
+      .fa {
+        color: white;
+      }
+    }
+
+    .info-section {
+      padding: 10px 20px;
+      position: static;
+      .logo {
+        height: 50px;
+        width: 70px;
+        font-size: 1rem;
+      }
+      .info-box {
+        display: none;
+      }
+    }
+    .content-area {
+      height: auto;
+      margin-left: 0;
+      width: 100%;
+      padding: 0;
+      &:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      .title {
+        text-align: center;
+      }
+
+      .project-section {
+        width: 100%;
+        text-align: center;
+        float: right;
+        padding: 50px 20px 0;
+        grid-template-columns: 1fr;
+        .project-box {
+          margin-bottom: 56px;
+          width: 100%;
+          height: 333px;
+        }
+      }
+    }
+  }
+}

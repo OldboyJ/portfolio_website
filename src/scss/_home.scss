@@ -75,3 +75,120 @@
     }
   }
 }
+
+//phone
+@media (min-width: 0) and (max-width: 767px) {
+  .home {
+    .menu-icon {
+      top: -3px;
+      right: 20px;
+      color: white;
+      .fa {
+        color: white;
+      }
+    }
+    .info-section {
+      padding: 10px 20px;
+      position: static;
+      .logo {
+        height: 50px;
+        width: 70px;
+        font-size: 1rem;
+      }
+      .info-box {
+        display: none;
+      }
+    }
+    .content-area {
+      margin-left: 0;
+      width: 100%;
+      .img-container {
+        padding: 56px 20px 0;
+        .user-img {
+          position: static;
+          width: 100%;
+        }
+      }
+      .profile-section {
+        width: 70%;
+        float: right;
+        padding: 20% 20px 0;
+        .profile {
+          .primary-btn, .ghost-btn {
+            margin-bottom: 15px;
+          }
+        }
+      }
+    }
+  }
+}
+//tablet
+@media (min-width: 768px) and (max-width: 991px)
+{
+.home {
+  .content-area {
+    .img-container {
+      padding: 56px 20px 0;
+      .user-img {
+        position: static;
+        width: 100%;
+      }
+    }
+    .profile-section {
+      width: 70%;
+      float: right;
+      padding: 20% 60px 0;
+      .profile {
+        .primary-btn, .ghost-btn {
+          margin-bottom: 15px;
+        }
+      }
+    }
+  }
+}
+
+}
+// larger screens
+@media (min-width: 992px) and (max-width: 1199px)
+{
+  .home {
+    .content-area {
+      .img-container {
+        padding: 56px 20px 0;
+        float: left;
+        .user-img {
+          position: static;
+          width: 100%;
+        }
+      }
+      .profile-section {
+        width: 70%;
+        float: left;
+        padding: 20% 60px 0;
+        max-width: 800px;
+        .profile {
+          .primary-btn, .ghost-btn {
+            margin-bottom: 15px;
+          }
+        }
+      }
+    }
+  }
+}
+@media (min-width: 1200px) and (max-width: 1599px)
+{
+  .home {
+    .content-area {
+      .img-container {
+        padding: 56px 20px 0;
+        float: left;
+      }
+      .profile-section {
+        width: 70%;
+        float: left;
+        padding: 20% 60px 0;
+        max-width: 800px
+      }
+    }
+  }
+}
