@@ -132,7 +132,7 @@ function reloadCSS() {
 }
 
 module.exports = reloadCSS;
-},{"./bundle-url":9}],6:[function(require,module,exports) {
+},{"./bundle-url":9}],5:[function(require,module,exports) {
 
         var reloadCSS = require('_css_loader');
         module.hot.dispose(reloadCSS);
@@ -160,7 +160,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = '' || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + '52758' + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + '55425' + '/');
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
 

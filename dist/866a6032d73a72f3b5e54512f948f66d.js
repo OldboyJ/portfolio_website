@@ -132,19 +132,17 @@ function reloadCSS() {
 }
 
 module.exports = reloadCSS;
-},{"./bundle-url":9}],6:[function(require,module,exports) {
+},{"./bundle-url":9}],5:[function(require,module,exports) {
 
         var reloadCSS = require('_css_loader');
         module.hot.dispose(reloadCSS);
         module.hot.accept(reloadCSS);
       
-},{"./../img/JoseSandate.jpg":[["6a9606726ac6adad,5:[function(require,module,exports) {
-'use s,5:[function(require,module,exports) {
+},{"./../img/JoseSandate.jpg":8,"_css_loader":7}],6:[function(require,module,exports) {
 'use strict';
 
-require('..,10:[function(require,module,exports) {
-
-var ,10:[function(require,module,exports) {
+require('../scss/main.scss');
+},{"../scss/main.scss":5}],10:[function(require,module,exports) {
 
 var global = (1, eval)('this');
 var OldModule = module.bundle.Module;
@@ -166,7 +164,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = '' || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + '52758' + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + '55425' + '/');
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
 
@@ -264,7 +262,10 @@ function hmrAccept(bundle, id) {
   }
 
   return getParents(global.require, id).some(function (id) {
-    return,12:[function(require,module,exports) {
+    return hmrAccept(global.require, id);
+  });
+}
+},{}],12:[function(require,module,exports) {
 var getBundleURL = require('./bundle-url').getBundleURL;
 
 function loadBundlesLazy(bundles) {
@@ -344,6 +345,6 @@ LazyPromise.prototype.catch = function (onError) {
   return this.promise || (this.promise = new Promise(this.executor).catch(onError));
 };
 },{"./bundle-url":9}],0:[function(require,module,exports) {
-var b=require(12);b.load([["6a9606726ac6adad1848cc3c608d78ba.jpg",8],5]);
+var b=require(12);b.load([["6a9606726ac6adad1848cc3c608d78ba.jpg",8],6]);
 },{}]},{},[10,0])
 //# sourceMappingURL=/dist/866a6032d73a72f3b5e54512f948f66d.map
